@@ -21,6 +21,11 @@ qt_add_qml_module(appnnuen
     URI nnuen
     QML_FILES
         Main.qml
+RESOURCES shapes/LICENSE
+QML_FILES shapes/geometry/offset.js shapes/graphics/matrix.js shapes/shapes/corner-rounding.js shapes/shapes/cubic.js shapes/shapes/feature-mapping.js shapes/shapes/feature.js shapes/shapes/float-mapping.js shapes/shapes/morph.js shapes/shapes/point.js shapes/shapes/polygon-measure.js shapes/shapes/rounded-corner.js shapes/shapes/rounded-polygon.js shapes/shapes/utils.js shapes/example-squircle.qml shapes/example.qml shapes/material-shapes.js shapes/ShapeCanvas.qml
+RESOURCES ms.ttf
+RESOURCES
+QML_FILES components/NavButton.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
